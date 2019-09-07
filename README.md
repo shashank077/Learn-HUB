@@ -1,7 +1,7 @@
 # Learn-HUB
 # The purpose is to form a repository which contains a wide range of topics from the field of Programming.To help beginners get up and running  and also for revision of those who already are well aware of them.
-#IMPLEMENTATION
+#IMPLEMENTATION \
 [VECTOR](https://github.com/shashank077/Learn-HUB/blob/master/VECTOR_basic.cpp)\
 [VECTOR PAIR](https://github.com/shashank077/Learn-HUB/blob/master/Vector_Pair.cpp)\
-#Study Resource
+#Study Resource \
 [study material for fibonacci mathematics](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html)
