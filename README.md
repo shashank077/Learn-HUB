@@ -10,7 +10,8 @@ For Contributing in Hacktoberfest19
 [VECTOR](https://github.com/shashank077/Learn-HUB/blob/master/VECTOR_basic.cpp)\
 [VECTOR PAIR](https://github.com/shashank077/Learn-HUB/blob/master/Vector_Pair.cpp)\
 [GRAPH DFS STL](https://github.com/shashank077/Learn-HUB/blob/master/DFS%40GRAPHS.cpp)\
-![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/9-1-1.png)
-#Study Resource \
+![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/9-1-1.png)\
+# Study Resources
 [study material for fibonacci mathematics](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html)\
 [Sieve of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+[GRAPH DFS](https://www.geeksforgeeks.org/graph-implementation-using-stl-for-competitive-programming-set-1-dfs-of-unweighted-and-undirected/)
