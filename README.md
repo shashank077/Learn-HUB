@@ -6,7 +6,7 @@ For Contributing in Hacktoberfest19
 3) Write up study resource,an article or code you wish to share 
 4) Create Pull Request
 # The purpose is to form a repository which contains a wide range of topics from the field of Programming.To help beginners get up and running  and also to have the back of those who already are in the game.The climb will be tough(and slow) but the view will be worth it. :-) 
-#IMPLEMENTATION \
+# Implementations C++14/JAVA7 \
 [VECTOR](https://github.com/shashank077/Learn-HUB/blob/master/VECTOR_basic.cpp)\
 [VECTOR PAIR](https://github.com/shashank077/Learn-HUB/blob/master/Vector_Pair.cpp)\
 [GRAPH DFS STL](https://github.com/shashank077/Learn-HUB/blob/master/DFS%40GRAPHS.cpp)\
