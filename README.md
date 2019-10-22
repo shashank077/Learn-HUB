@@ -12,7 +12,8 @@ For Contributing in Hacktoberfest19
 [GRAPH DFS STL](https://github.com/shashank077/Learn-HUB/blob/master/DFS%40GRAPHS.cpp)\
 ![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/9-1-1.png)\
 [QUICK SORT](https://github.com/shashank077/Learn-HUB/blob/master/quick_sort.cpp)\
-[Recursive Binary Search](https://github.com/shashank077/Learn-HUB/blob/master/Recursive_binarySearch.cpp)
+[Recursive Binary Search](https://github.com/shashank077/Learn-HUB/blob/master/Recursive_binarySearch.cpp)\
+[Finding factors of a no. O(sqrt(n))](https://github.com/shashank077/Learn-HUB/blob/master/FactorsO(sqrt(n)).cpp)
 # Study Resources
 [study material for fibonacci mathematics](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html)\
 [Sieve of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)\
