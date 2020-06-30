@@ -12,7 +12,11 @@ For Contributing in Hacktoberfest19
 [GRAPH DFS STL](https://github.com/shashank077/Learn-HUB/blob/master/DFS%40GRAPHS.cpp)\
 [QUICK SORT](https://github.com/shashank077/Learn-HUB/blob/master/quick_sort.cpp)\
 [Recursive Binary Search](https://github.com/shashank077/Learn-HUB/blob/master/Recursive_binarySearch.cpp)\
-[Finding factors of a no. O(sqrt(n))](https://github.com/shashank077/Learn-HUB/blob/master/FactorsO(sqrt(n)).cpp)
+[Finding factors of a no. O(sqrt(n))](https://github.com/shashank077/Learn-HUB/blob/master/FactorsO(sqrt(n)).cpp)\
+[Connected components](https://github.com/shashank077/Learn-HUB/blob/master/NumberofConnComp.cpp)\
+[Snake and ladder](https://github.com/shashank077/Learn-HUB/blob/master/SnakeLadder.cpp)\
+[Bfs](https://github.com/shashank077/Learn-HUB/blob/master/bfsgraph.cpp)\
+[Cyle detection directed using bfs](https://github.com/shashank077/Learn-HUB/blob/master/Cycledetect.cpp)\
 # Study Resources
 [study material for fibonacci mathematics](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html)\
 [Sieve of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)\
