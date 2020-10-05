@@ -1,0 +1,52 @@
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+string util(string a,string b)
+{
+    int l1=a.length();int l2=b.length();
+    string sol;
+    for(int i=0,j=0; i<l1 && j<l2 ; i++,j++)
+    {
+        if(a[i]==b[i])
+        {
+            sol.push_back(a[i]);
+        }
+        else if(a[i]!=b[i])
+        {
+            break;
+        }
+    }
+    return sol;
+}
+string lcpa(string arr[],int n)
+{
+    string scp=arr[0];
+    for(int i=1;i<n;i++)
+    {
+        scp=util(scp,arr[i]);   
+    }
+    return scp;
+}
+int main()
+ {
+	ll testcase=0;
+    cin>>testcase;
+    while(testcase--)
+    {
+        int n=0;
+        cin>>n;
+        string arr[n];
+        for(int i=0;i<n;i++)
+        {
+            cin>>arr[i];
+        }
+        string lcp=lcpa(arr,n);
+        if (lcp.length()) 
+     //   printf ("The longest common prefix is - %s", 
+              cout<<lcp.c_str()<<endl; 
+    else
+        cout<<"-1"<<endl;
+       // printf("There is no common prefix"); 
+    }
+	return 0;
+}
