@@ -1,0 +1,71 @@
+/*Giving a dictionary and a string ‘str’, your task is to find the longest string in dictionary of size x which can be formed by deleting some characters of the given ‘str’.
+
+Examples:
+
+Input : dict = {"ale", "apple", "monkey", "plea"}   
+        str = "abpcplea"  
+Output : apple
+
+Input  : dict = {"pintu", "geeksfor", "geeksgeeks", 
+                                        " forgeek"} 
+         str = "geeksforgeeks"
+Output : geeksgeeks
+*/
+#include<bits/stdc++.h>
+#define ll long long 
+using namespace std;
+bool isasubsequesnce(string a,string b)//a is given string,b is a word of dictionary
+{
+	int l1=a.length();
+	int l2=b.length();
+	int cp=0;
+	for(int i=0;i<l2 && cp<l1;i++)
+	{
+		if(a[cp]==b[i])
+		{
+			cp+=1;
+		}
+	}
+	//cout<<a<<"."<<cp<<endl;
+	return(l1==cp);
+}
+string longestword(string dic[],int x,string str)
+{
+	string res="";
+	int mlen=0;
+	for(int word=0;word<x;word++)
+	{
+		string temp=dic[word];
+		//cout<<temp<<endl;
+		if(temp.length()>mlen && isasubsequesnce(temp,str))
+		{
+			res=temp;
+			//cout<<res<<endl;
+			mlen=temp.length();
+			//cout<<mlen<<endl;
+		}
+	}
+	return res;
+}
+int main()
+{
+	ll t=0;
+	cin>>t;
+	while(t--)
+	{
+		int x=0;
+		cin>>x;
+		string s1[x];
+		for(int i=0;i<x;i++)
+		{
+			cin>>s1[i];
+		}
+		string str;
+		cin>>str;
+		string p=longestword(s1,x,str);
+		cout<<p<<endl;
+		/*string k="monkey";
+		bool xs=isasubsequesnce(str,k);
+		cout<<xs<<endl;*/
+	}
+}
