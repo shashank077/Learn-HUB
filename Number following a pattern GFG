@@ -1,0 +1,46 @@
+/*Number following a pattern 
+
+Given a pattern containing only I's and D's. I for increasing and D for decreasing.
+Devise an algorithm to print the minimum number following that pattern.
+Digits from 1-9 and digits can't repeat.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases.
+The first line of each test case is a string, which contains only I's and D's in capital letter.
+
+Output:
+Print the minimum number following that pattern.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+ {
+	//code
+	int t=0;
+	cin>>t;
+	while(t--)
+	{
+	    stack<int> T;
+	    string str;
+	    cin>>str;
+	    int ctp=1;
+	    int l=str.length();
+	    cout<<l<<endl;
+	    for(int i=0;i<=l+1;i++)
+	    {
+	        T.push(ctp);
+	        ctp++;
+	        if(str[i]=='I'||i==l)
+	        {
+	            while(!T.empty())
+	            {
+	                cout<<T.top();
+	                T.pop()
+;	            }
+	        }
+	        
+	    }
+	    cout<<endl;
+	}
+	return 0;
+}
