@@ -1,6 +1,6 @@
 ![alt text](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
 # Learn-HUB
-For Contributing in Hacktoberfest19 
+For Contributing in Hacktoberfest 2020
 1) Fork the Repository 
 2) Create new file 
 3) Write up study resource,an article or code you wish to share 
